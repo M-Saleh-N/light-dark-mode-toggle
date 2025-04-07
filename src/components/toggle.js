@@ -6,4 +6,13 @@ function toggle(){
 
     const toggle = () => {
         setIsToggled(!isToggled);
+};
+
+useEffect (() => {
+    document.body.style.backgroundColor = isToggled ? 'black' : 'white';
+    document.body.style.color = isToggled ? 'white' : 'black';
+    }, [isToggled]);
+}
+
+
 }
