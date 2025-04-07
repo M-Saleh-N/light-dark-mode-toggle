@@ -22,8 +22,8 @@ useEffect(() => {
 
 return(
     <div className="toggle">
+        <div className="toggle-cont">Welcome to my colour change Toggle web site</div>
          <button onClick={toggle}>{isToggled ? "Switch to Light Mode" : "Switch to Dark Mode"}</button>
-
     </div>
 );
     
