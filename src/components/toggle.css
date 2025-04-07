@@ -43,3 +43,15 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease-in-out;
 }
+
+button:hover {
+    background-color: #333;
+    color: white;
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+button:focus {
+    outline: none;
+    border-color: #ff6b81; /* Optional: adds a focus outline */
+}
