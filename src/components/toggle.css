@@ -3,3 +3,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Light Mode */
+body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+}
