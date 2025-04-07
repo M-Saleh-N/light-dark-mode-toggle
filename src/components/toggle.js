@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import './toggle.css';
 
-function toggle(){
+function Toggle(){
     const [isToggled, setIsToggled] = useState(false);
 
     const toggle = () => {
@@ -22,14 +22,14 @@ useEffect(() => {
 
 return(
     <div className="toggle">
-        <button onClick={toggle}>Toggle</button>
+         <button onClick={toggle}>{isToggled ? "Switch to Light Mode" : "Switch to Dark Mode"}</button>
 
     </div>
-)
+);
     
 
 }
 
-export default toggle;
+export default Toggle;
 
 
