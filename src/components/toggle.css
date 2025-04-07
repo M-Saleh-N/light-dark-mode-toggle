@@ -32,3 +32,14 @@ body.dark-mode {
     transition: color 0.3s ease;
 }
 
+button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
